@@ -1,0 +1,27 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Generated video and image outputs
+outputs/*.mp4
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+outputs/*.json
